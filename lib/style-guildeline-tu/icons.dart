@@ -1,22 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
-import 'dart:ui';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/utils.dart';
 
 class Scene extends StatelessWidget {
+  const Scene({super.key});
+
   @override
   Widget build(BuildContext context) {
     double baseWidth = 592;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
-    return Container(
+    return SizedBox(
       width: double.infinity,
       child: Container(
         // iconsqH7 (214:1648)
         padding: EdgeInsets.fromLTRB(45*fem, 59*fem, 0*fem, 806*fem),
         width: double.infinity,
-        decoration: BoxDecoration (
+        decoration: const BoxDecoration (
           color: Color(0xffffffff),
         ),
         child: Column(
@@ -32,7 +31,7 @@ class Scene extends StatelessWidget {
                   fontSize: 36*ffem,
                   fontWeight: FontWeight.w700,
                   height: 1.2175*ffem/fem,
-                  color: Color(0xff424f65),
+                  color: const Color(0xff424f65),
                 ),
               ),
             ),
@@ -46,7 +45,7 @@ class Scene extends StatelessWidget {
                   fontSize: 24*ffem,
                   fontWeight: FontWeight.w400,
                   height: 1.2175*ffem/fem,
-                  color: Color(0xff000000),
+                  color: const Color(0xff000000),
                 ),
               ),
             ),
@@ -61,8 +60,8 @@ class Scene extends StatelessWidget {
                   fontWeight: FontWeight.w400,
                   height: 1.2175*ffem/fem,
                   decoration: TextDecoration.underline,
-                  color: Color(0xff757575),
-                  decorationColor: Color(0xff757575),
+                  color: const Color(0xff757575),
+                  decorationColor: const Color(0xff757575),
                 ),
               ),
             ),

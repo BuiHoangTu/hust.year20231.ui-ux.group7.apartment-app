@@ -1,24 +1,23 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
-import 'dart:ui';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/utils.dart';
 
 class Scene extends StatelessWidget {
+  const Scene({super.key});
+
   @override
   Widget build(BuildContext context) {
     double baseWidth = 632;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
-    return Container(
+    return SizedBox(
       width: double.infinity,
       child: Container(
         // framepopupconfirm2e1 (342:2248)
         padding: EdgeInsets.fromLTRB(15*fem, 35.5*fem, 15*fem, 15*fem),
         width: double.infinity,
         decoration: BoxDecoration (
-          border: Border.all(color: Color(0xff000000)),
-          color: Color(0xffffffff),
+          border: Border.all(color: const Color(0xff000000)),
+          color: const Color(0xffffffff),
           borderRadius: BorderRadius.circular(20*fem),
         ),
         child: Column(
@@ -38,7 +37,7 @@ class Scene extends StatelessWidget {
                     width: 411*fem,
                     height: double.infinity,
                     decoration: BoxDecoration (
-                      color: Color(0xfff0e68c),
+                      color: const Color(0xfff0e68c),
                       borderRadius: BorderRadius.circular(20*fem),
                     ),
                     child: Center(
@@ -50,12 +49,12 @@ class Scene extends StatelessWidget {
                           fontSize: 28*ffem,
                           fontWeight: FontWeight.w400,
                           height: 1.2125*ffem/fem,
-                          color: Color(0xff000000),
+                          color: const Color(0xff000000),
                         ),
                       ),
                     ),
                   ),
-                  Container(
+                  SizedBox(
                     // iconquestionmarkcircleWxV (342:2252)
                     width: 40*fem,
                     height: 40*fem,
@@ -68,7 +67,7 @@ class Scene extends StatelessWidget {
                 ],
               ),
             ),
-            Container(
+            SizedBox(
               // frame3962Sr9 (342:2256)
               width: double.infinity,
               height: 54*fem,
@@ -86,7 +85,7 @@ class Scene extends StatelessWidget {
                       child: Container(
                         width: 178*fem,
                         height: double.infinity,
-                        decoration: BoxDecoration (
+                        decoration: const BoxDecoration (
                           color: Color(0xff90ee90),
                         ),
                         child: Center(
@@ -98,7 +97,7 @@ class Scene extends StatelessWidget {
                               fontSize: 36*ffem,
                               fontWeight: FontWeight.w400,
                               height: 1.2125*ffem/fem,
-                              color: Color(0xff000000),
+                              color: const Color(0xff000000),
                             ),
                           ),
                         ),
@@ -109,7 +108,7 @@ class Scene extends StatelessWidget {
                     // framenotification2pM (342:2259)
                     width: 156*fem,
                     height: double.infinity,
-                    decoration: BoxDecoration (
+                    decoration: const BoxDecoration (
                       color: Color(0xfffe4242),
                     ),
                     child: Center(
@@ -121,7 +120,7 @@ class Scene extends StatelessWidget {
                           fontSize: 36*ffem,
                           fontWeight: FontWeight.w400,
                           height: 1.2125*ffem/fem,
-                          color: Color(0xff000000),
+                          color: const Color(0xff000000),
                         ),
                       ),
                     ),

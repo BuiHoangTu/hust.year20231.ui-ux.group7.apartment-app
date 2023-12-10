@@ -1,24 +1,23 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
-import 'dart:ui';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/utils.dart';
 
 class Scene extends StatelessWidget {
+  const Scene({super.key});
+
   @override
   Widget build(BuildContext context) {
     double baseWidth = 632;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
-    return Container(
+    return SizedBox(
       width: double.infinity,
       child: Container(
         // framepopupconfirmLK7 (339:2844)
         padding: EdgeInsets.fromLTRB(15*fem, 35.5*fem, 15*fem, 15*fem),
         width: double.infinity,
         decoration: BoxDecoration (
-          border: Border.all(color: Color(0xff000000)),
-          color: Color(0xffffffff),
+          border: Border.all(color: const Color(0xff000000)),
+          color: const Color(0xffffffff),
           borderRadius: BorderRadius.circular(20*fem),
         ),
         child: Column(
@@ -38,7 +37,7 @@ class Scene extends StatelessWidget {
                     width: 411*fem,
                     height: double.infinity,
                     decoration: BoxDecoration (
-                      color: Color(0xfff0e68c),
+                      color: const Color(0xfff0e68c),
                       borderRadius: BorderRadius.circular(20*fem),
                     ),
                     child: Center(
@@ -50,12 +49,12 @@ class Scene extends StatelessWidget {
                           fontSize: 28*ffem,
                           fontWeight: FontWeight.w400,
                           height: 1.2125*ffem/fem,
-                          color: Color(0xff000000),
+                          color: const Color(0xff000000),
                         ),
                       ),
                     ),
                   ),
-                  Container(
+                  SizedBox(
                     // iconquestionmarkcircleFqP (339:2848)
                     width: 40*fem,
                     height: 40*fem,
@@ -68,7 +67,7 @@ class Scene extends StatelessWidget {
                 ],
               ),
             ),
-            Container(
+            SizedBox(
               // frame3962kXF (339:2852)
               width: double.infinity,
               height: 54*fem,
@@ -81,8 +80,8 @@ class Scene extends StatelessWidget {
                     width: 156*fem,
                     height: double.infinity,
                     decoration: BoxDecoration (
-                      border: Border.all(color: Color(0xff32cd32)),
-                      color: Color(0xffffffff),
+                      border: Border.all(color: const Color(0xff32cd32)),
+                      color: const Color(0xffffffff),
                     ),
                     child: Center(
                       child: Text(
@@ -93,7 +92,7 @@ class Scene extends StatelessWidget {
                           fontSize: 36*ffem,
                           fontWeight: FontWeight.w400,
                           height: 1.2125*ffem/fem,
-                          color: Color(0xff32cd32),
+                          color: const Color(0xff32cd32),
                         ),
                       ),
                     ),
@@ -103,8 +102,8 @@ class Scene extends StatelessWidget {
                     width: 178*fem,
                     height: double.infinity,
                     decoration: BoxDecoration (
-                      border: Border.all(color: Color(0xff32cd32)),
-                      color: Color(0xff90ee90),
+                      border: Border.all(color: const Color(0xff32cd32)),
+                      color: const Color(0xff90ee90),
                     ),
                     child: Center(
                       child: Text(
@@ -115,7 +114,7 @@ class Scene extends StatelessWidget {
                           fontSize: 36*ffem,
                           fontWeight: FontWeight.w400,
                           height: 1.2125*ffem/fem,
-                          color: Color(0xff000000),
+                          color: const Color(0xff000000),
                         ),
                       ),
                     ),

@@ -1,23 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
-import 'dart:ui';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:myapp/utils.dart';
 
 class Scene extends StatelessWidget {
+  const Scene({super.key});
+
   @override
   Widget build(BuildContext context) {
     double baseWidth = 272;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
-    return Container(
+    return SizedBox(
       width: double.infinity,
       child: Container(
         // cellmpq (13:1191)
         padding: EdgeInsets.fromLTRB(16*fem, 16*fem, 16*fem, 16*fem),
         width: double.infinity,
         decoration: BoxDecoration (
-          border: Border.all(color: Color(0xffb9b9b9)),
+          border: Border.all(color: const Color(0xffb9b9b9)),
           borderRadius: BorderRadius.circular(5*fem),
         ),
         child: Row(
@@ -28,7 +26,7 @@ class Scene extends StatelessWidget {
               width: 120*fem,
               height: 36*fem,
               decoration: BoxDecoration (
-                border: Border.all(color: Color(0xffb9b9b9)),
+                border: Border.all(color: const Color(0xffb9b9b9)),
               ),
             ),
             Container(
@@ -36,8 +34,8 @@ class Scene extends StatelessWidget {
               width: 120*fem,
               height: 36*fem,
               decoration: BoxDecoration (
-                border: Border.all(color: Color(0xffb9b9b9)),
-                color: Color(0x0f000000),
+                border: Border.all(color: const Color(0xffb9b9b9)),
+                color: const Color(0x0f000000),
               ),
             ),
           ],

@@ -1,22 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
-import 'dart:ui';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/utils.dart';
 
 class Scene extends StatelessWidget {
+  const Scene({super.key});
+
   @override
   Widget build(BuildContext context) {
     double baseWidth = 964;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
-    return Container(
+    return SizedBox(
       width: double.infinity,
       child: Container(
         // selectqiu (206:1447)
         width: double.infinity,
         height: 511*fem,
-        decoration: BoxDecoration (
+        decoration: const BoxDecoration (
           color: Color(0xffffffff),
         ),
         child: Stack(
@@ -25,7 +24,7 @@ class Scene extends StatelessWidget {
               // autogroupsjjsk5B (BMtw2V18RTyHDkj9pEsjJs)
               left: 32*fem,
               top: 24*fem,
-              child: Container(
+              child: SizedBox(
                 width: 133*fem,
                 height: 149*fem,
                 child: Column(
@@ -41,7 +40,7 @@ class Scene extends StatelessWidget {
                           fontSize: 36*ffem,
                           fontWeight: FontWeight.w700,
                           height: 1.2175*ffem/fem,
-                          color: Color(0xff424f65),
+                          color: const Color(0xff424f65),
                         ),
                       ),
                     ),
@@ -53,7 +52,7 @@ class Scene extends StatelessWidget {
                         fontSize: 18*ffem,
                         fontWeight: FontWeight.w600,
                         height: 1.3625*ffem/fem,
-                        color: Color(0xff424f65),
+                        color: const Color(0xff424f65),
                       ),
                     ),
                   ],
@@ -75,7 +74,7 @@ class Scene extends StatelessWidget {
                       fontSize: 18*ffem,
                       fontWeight: FontWeight.w600,
                       height: 1.3625*ffem/fem,
-                      color: Color(0xff424f65),
+                      color: const Color(0xff424f65),
                     ),
                   ),
                 ),
@@ -96,7 +95,7 @@ class Scene extends StatelessWidget {
                       fontSize: 18*ffem,
                       fontWeight: FontWeight.w600,
                       height: 1.3625*ffem/fem,
-                      color: Color(0xff424f65),
+                      color: const Color(0xff424f65),
                     ),
                   ),
                 ),
@@ -117,7 +116,7 @@ class Scene extends StatelessWidget {
                       fontSize: 18*ffem,
                       fontWeight: FontWeight.w600,
                       height: 1.3625*ffem/fem,
-                      color: Color(0xff424f65),
+                      color: const Color(0xff424f65),
                     ),
                   ),
                 ),
@@ -150,7 +149,7 @@ class Scene extends StatelessWidget {
                             fontSize: 16*ffem,
                             fontWeight: FontWeight.w400,
                             height: 1.25*ffem/fem,
-                            color: Color(0xff99b7f0),
+                            color: const Color(0xff99b7f0),
                           ),
                         ),
                       ),
@@ -171,14 +170,14 @@ class Scene extends StatelessWidget {
                               fontSize: 16*ffem,
                               fontWeight: FontWeight.w400,
                               height: 1.25*ffem/fem,
-                              color: Color(0xff99b7f0),
+                              color: const Color(0xff99b7f0),
                             ),
                           ),
                           Container(
                             // line4XZ7 (206:1459)
                             width: double.infinity,
                             height: 1*fem,
-                            decoration: BoxDecoration (
+                            decoration: const BoxDecoration (
                               color: Color(0xff99b7f0),
                             ),
                           ),
@@ -201,21 +200,21 @@ class Scene extends StatelessWidget {
                               fontSize: 16*ffem,
                               fontWeight: FontWeight.w400,
                               height: 1.25*ffem/fem,
-                              color: Color(0xff99b7f0),
+                              color: const Color(0xff99b7f0),
                             ),
                           ),
                           Container(
                             // line46Eq (206:1462)
                             width: double.infinity,
                             height: 1*fem,
-                            decoration: BoxDecoration (
+                            decoration: const BoxDecoration (
                               color: Color(0xff99b7f0),
                             ),
                           ),
                         ],
                       ),
                     ),
-                    Container(
+                    SizedBox(
                       // statedisableddevicedesktopTLH (206:1463)
                       width: 40*fem,
                       height: 20*fem,
@@ -230,14 +229,14 @@ class Scene extends StatelessWidget {
                               fontSize: 16*ffem,
                               fontWeight: FontWeight.w400,
                               height: 1.25*ffem/fem,
-                              color: Color(0xffd9d9d9),
+                              color: const Color(0xffd9d9d9),
                             ),
                           ),
                           Container(
                             // line4YsX (206:1465)
                             width: double.infinity,
                             height: 1*fem,
-                            decoration: BoxDecoration (
+                            decoration: const BoxDecoration (
                               color: Color(0xffd9d9d9),
                             ),
                           ),
