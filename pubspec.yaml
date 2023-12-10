@@ -1,0 +1,479 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/templates/images/app-logo.png
+    - assets/templates/images/user-avatar-bg.png
+    - assets/templates/images/app-logo-qMX.png
+    - assets/templates/images/user-avatar-bg-STo.png
+    - assets/templates/images/icon-message-text.png
+    - assets/templates/images/icon-wallet.png
+    - assets/templates/images/icon-message-text-FeV.png
+    - assets/templates/images/corner-down-left.png
+    - assets/templates/images/app-logo-WRj.png
+    - assets/templates/images/corner-down-left-bfT.png
+    - assets/templates/images/app-logo-NKf.png
+    - assets/templates/images/icon-message-text-edj.png
+    - assets/templates/images/icon-user-circle-alt.png
+    - assets/templates/images/icon-fill-caret-small-down.png
+    - assets/templates/images/icon-home.png
+    - assets/templates/images/icon-fill-caret-small-down-WhB.png
+    - assets/templates/images/icon-fill-caret-small-down-Abw.png
+    - assets/templates/images/icon-fill-caret-small-down-NfP.png
+    - assets/templates/images/app-logo-bkR.png
+    - assets/templates/images/user-avatar-bg-sUy.png
+    - assets/templates/images/icon-wallet-8Ds.png
+    - assets/templates/images/app-logo-fWd.png
+    - assets/templates/images/search.png
+    - assets/templates/images/icon-outline-layer.png
+    - assets/templates/images/arrows-drop-down-down.png
+    - assets/templates/images/vector.png
+    - assets/templates/images/user-avatar-bg-tFo.png
+    - assets/templates/images/app-logo-qYq.png
+    - assets/templates/images/icon-message-text-VLR.png
+    - assets/templates/images/icon-user-circle-alt-Tjj.png
+    - assets/templates/images/user-avatar-bg-ro7.png
+    - assets/templates/images/user-avatar-bg-beD.png
+    - assets/templates/images/corner-down-left-qpZ.png
+    - assets/templates/images/icon-outline-layer-v7F.png
+    - assets/templates/images/icon-group.png
+    - assets/templates/images/icon-user-circle-alt-nJ9.png
+    - assets/templates/images/frame-3963.png
+    - assets/templates/images/user-avatar-bg-CH3.png
+    - assets/templates/images/icon-fill-caret-small-down-hF3.png
+    - assets/templates/images/icon-wallet-jPK.png
+    - assets/templates/images/user-avatar-bg-fsj.png
+    - assets/templates/images/icon-home-QKX.png
+    - assets/templates/images/icon-wallet-kuB.png
+    - assets/templates/images/icon-wallet-iLD.png
+    - assets/templates/images/icon-home-5Rf.png
+    - assets/templates/images/user-avatar-bg-rqj.png
+    - assets/templates/images/icon-home-PoT.png
+    - assets/templates/images/icon-outline-layer-LTo.png
+    - assets/templates/images/icon-wallet-Htq.png
+    - assets/templates/images/icon-home-simple-door.png
+    - assets/templates/images/frame-3963-85K.png
+    - assets/templates/images/app-logo-ZEV.png
+    - assets/templates/images/icon-message-text-EhK.png
+    - assets/templates/images/icon-home-NcV.png
+    - assets/templates/images/icon-wallet-Qhb.png
+    - assets/templates/images/icon-home-Phw.png
+    - assets/templates/images/corner-down-left-yJm.png
+    - assets/templates/images/icon-user-circle-alt-wAM.png
+    - assets/templates/images/user-avatar-bg-tLV.png
+    - assets/templates/images/icon-message-text-Scu.png
+    - assets/templates/images/icon-wallet-Cc5.png
+    - assets/templates/images/corner-down-left-W6y.png
+    - assets/templates/images/icon-user-circle-alt-fEm.png
+    - assets/templates/images/icon-outline-layer-AhK.png
+    - assets/templates/images/icon-fill-caret-small-down-8PF.png
+    - assets/templates/images/component-2.png
+    - assets/templates/images/icon-home-V4h.png
+    - assets/templates/images/icon-outline-layer-Ni9.png
+    - assets/templates/images/user-avatar-bg-DGq.png
+    - assets/templates/images/unsplash-5q1knujtjam.png
+    - assets/templates/images/app-logo-mB3.png
+    - assets/templates/images/corner-down-left-HTT.png
+    - assets/templates/images/frame-3963-ENh.png
+    - assets/templates/images/icon-message-text-UXw.png
+    - assets/templates/images/icon-wallet-35F.png
+    - assets/templates/images/icon-home-VC9.png
+    - assets/templates/images/icon-wallet-o7T.png
+    - assets/templates/images/icon-user-circle-alt-yRF.png
+    - assets/templates/images/corner-down-left-XxZ.png
+    - assets/templates/images/icon-message-text-VPb.png
+    - assets/templates/images/corner-down-left-8so.png
+    - assets/templates/images/icon-fill-caret-small-down-g8d.png
+    - assets/templates/images/icon-wallet-qXK.png
+    - assets/templates/images/vector-wqF.png
+    - assets/templates/images/icon-home-Rmf.png
+    - assets/templates/images/app-logo-YRb.png
+    - assets/templates/images/icon-home-bc9.png
+    - assets/templates/images/icon-home-m2m.png
+    - assets/templates/images/corner-down-left-JEH.png
+    - assets/templates/images/icon-message-text-qV7.png
+    - assets/templates/images/frame-3963-V3B.png
+    - assets/templates/images/corner-down-left-qaD.png
+    - assets/templates/images/icon-home-yRX.png
+    - assets/templates/images/edit-2.png
+    - assets/templates/images/icon-message-text-JCu.png
+    - assets/templates/images/icon-outline-layer-cUV.png
+    - assets/templates/images/icon-user-circle-alt-Tuf.png
+    - assets/templates/images/corner-down-left-1RP.png
+    - assets/templates/images/icon-fill-caret-small-down-beV.png
+    - assets/templates/images/icon-outline-layer-8rh.png
+    - assets/templates/images/icon-home-hV7.png
+    - assets/templates/images/buttons.png
+    - assets/templates/images/icon-message-text-pQd.png
+    - assets/templates/images/icon-outline-layer-SfX.png
+    - assets/templates/images/icon-fill-caret-small-down-neq.png
+    - assets/templates/images/arrows-drop-down-down-oD7.png
+    - assets/templates/images/app-logo-dqw.png
+    - assets/templates/images/icon-fill-caret-small-down-wBT.png
+    - assets/templates/images/app-logo-z9T.png
+    - assets/templates/images/frame-3963-Tdw.png
+    - assets/templates/images/icon-message-text-HpZ.png
+    - assets/templates/images/app-logo-vm3.png
+    - assets/templates/images/app-logo-FSV.png
+    - assets/templates/images/icon-fill-caret-small-down-CPf.png
+    - assets/templates/images/corner-down-left-rkM.png
+    - assets/templates/images/icon-message-text-Foj.png
+    - assets/templates/images/icon-message-text-Fvm.png
+    - assets/templates/images/user-avatar-bg-euK.png
+    - assets/templates/images/user-avatar-bg-YW1.png
+    - assets/templates/images/corner-down-left-8Pf.png
+    - assets/templates/images/icon-user-circle-alt-HU9.png
+    - assets/templates/images/icon-home-JAH.png
+    - assets/templates/images/icon-fill-caret-small-down-82q.png
+    - assets/templates/images/icon-user-circle-alt-yjs.png
+    - assets/templates/images/app-logo-8Ms.png
+    - assets/templates/images/icon-home-simple-door-DTB.png
+    - assets/templates/images/unsplash-5q1knujtjam-HMo.png
+    - assets/templates/images/icon-fill-caret-small-down-cEh.png
+    - assets/templates/images/icon-user-circle-alt-wGy.png
+    - assets/templates/images/icon-wallet-Ems.png
+    - assets/templates/images/icon-emoji-sad.png
+    - assets/templates/images/icon-message-text-Jof.png
+    - assets/templates/images/vector-53j.png
+    - assets/templates/images/user-avatar.png
+    - assets/templates/images/icon-wallet-kQm.png
+    - assets/templates/images/app-logo-2pm.png
+    - assets/templates/images/icon-question-mark-circle.png
+    - assets/templates/images/icon-wallet-gvH.png
+    - assets/templates/images/icon-home-N6H.png
+    - assets/templates/images/icon-question-mark-circle-3Cq.png
+    - assets/templates/images/success-icon.png
+    - assets/templates/images/user-avatar-aRj.png
+    - assets/templates/images/icon-home-Acm.png
+    - assets/templates/images/icon-fill-caret-small-down-fHw.png
+    - assets/templates/images/icon-fill-caret-small-down-oJm.png
+    - assets/templates/images/frame-3963-ygR.png
+    - assets/templates/images/icon-wallet-nZ3.png
+    - assets/templates/images/icon-outline-layer-D3s.png
+    - assets/templates/images/icon-wallet-ytq.png
+    - assets/templates/images/app-logo-2C5.png
+    - assets/templates/images/icon-fill-caret-small-down-uW5.png
+    - assets/templates/images/icon-outline-layer-nxm.png
+    - assets/templates/images/icon-message-text-8K7.png
+    - assets/templates/images/icon-group-mkh.png
+    - assets/templates/images/icon-message-text-Nsf.png
+    - assets/templates/images/icon-user-circle-alt-kLD.png
+    - assets/templates/images/icon-message-text-rkV.png
+    - assets/templates/images/icon-wallet-xxV.png
+    - assets/templates/images/corner-down-left-Vw3.png
+    - assets/templates/images/icon-home-79w.png
+    - assets/templates/images/app-logo-2xm.png
+    - assets/templates/images/icon-user-circle-alt-KDo.png
+    - assets/templates/images/corner-down-left-17T.png
+    - assets/templates/images/icon-outline-layer-CbF.png
+    - assets/templates/images/icon-home-hVP.png
+    - assets/templates/images/vector-BZw.png
+    - assets/templates/images/icon-message-text-YjF.png
+    - assets/templates/images/corner-down-left-aZT.png
+    - assets/templates/images/icon-user-circle-alt-q1X.png
+    - assets/templates/images/icon-wallet-oGy.png
+    - assets/templates/images/user-avatar-bg-hC9.png
+    - assets/templates/images/user-avatar-55w.png
+    - assets/templates/images/app-logo-zEZ.png
+    - assets/templates/images/user-avatar-bg-PbK.png
+    - assets/templates/images/user-avatar-bg-ZzV.png
+    - assets/templates/images/icon-home-e3w.png
+    - assets/templates/images/icon-wallet-DL1.png
+    - assets/templates/images/edit-2-PXs.png
+    - assets/templates/images/icon-user-circle-alt-WmT.png
+    - assets/templates/images/icon-home-HcR.png
+    - assets/templates/images/icon-fill-caret-small-down-8db.png
+    - assets/templates/images/app-logo-nmK.png
+    - assets/templates/images/icon-wallet-N6Z.png
+    - assets/templates/images/icon-user-circle-alt-gKF.png
+    - assets/templates/images/icon-wallet-fU1.png
+    - assets/templates/images/corner-down-left-WUM.png
+    - assets/templates/images/corner-down-left-irh.png
+    - assets/templates/images/icon-user-circle-alt-hTB.png
+    - assets/templates/images/user-avatar-KYq.png
+    - assets/templates/images/icon-user-circle-alt-f5o.png
+    - assets/templates/images/corner-down-left-Mk1.png
+    - assets/templates/images/user-avatar-bg-ASZ.png
+    - assets/templates/images/icon-home-BGR.png
+    - assets/templates/images/app-logo-9eV.png
+    - assets/templates/images/corner-down-left-WpD.png
+    - assets/templates/images/icon-user-circle-alt-51P.png
+    - assets/templates/images/icon-user-circle-alt-iz1.png
+    - assets/templates/images/icon-outline-layer-m57.png
+    - assets/templates/images/icon-wallet-B9w.png
+    - assets/templates/images/icon-home-T2V.png
+    - assets/templates/images/icon-wallet-KyX.png
+    - assets/templates/images/icon-home-5t9.png
+    - assets/templates/images/icon-user-circle-alt-KdP.png
+    - assets/templates/images/rectangle-84.png
+    - assets/templates/images/icon-message-text-eub.png
+    - assets/templates/images/user-avatar-t8M.png
+    - assets/templates/images/icon-message-text-51o.png
+    - assets/templates/images/icon-home-4Dj.png
+    - assets/templates/images/rectangle-84-Wmj.png
+    - assets/templates/images/icon-outline-layer-Tbj.png
+    - assets/templates/images/icon-user-circle-alt-MSD.png
+    - assets/templates/images/success-icon-5ho.png
+    - assets/templates/images/icon-user-circle-alt-jCZ.png
+    - assets/templates/images/icon-question-mark-circle-2cD.png
+    - assets/templates/images/icon-message-text-b4q.png
+    - assets/templates/images/icon-question-mark-circle-37B.png
+    - assets/templates/images/user-avatar-WDB.png
+    - assets/templates/images/icon-message-text-LJZ.png
+    - assets/templates/images/user-avatar-hvm.png
+    - assets/templates/images/icon-question-mark-circle-NoF.png
+    - assets/templates/images/icon-message-text-XgZ.png
+    - assets/templates/images/icon-wallet-HJu.png
+    - assets/templates/images/icon-wallet-UTo.png
+    - assets/templates/images/icon-wallet-24d.png
+    - assets/templates/images/icon-fill-caret-small-down-jXs.png
+    - assets/templates/images/icon-home-LYu.png
+    - assets/templates/images/icon-message-text-xYD.png
+    - assets/templates/images/frame-3963-inH.png
+    - assets/templates/images/icon-message-text-9C9.png
+    - assets/templates/images/app-logo-4KF.png
+    - assets/templates/images/icon-question-mark-circle-TkZ.png
+    - assets/templates/images/vector-7Tj.png
+    - assets/templates/images/vector-WeH.png
+    - assets/templates/images/icon-home-V2M.png
+    - assets/templates/images/icon-wallet-4XX.png
+    - assets/templates/images/icon-user-circle-alt-kYm.png
+    - assets/templates/images/icon-home-Rk9.png
+    - assets/templates/images/icon-wallet-crZ.png
+    - assets/templates/images/corner-down-left-CfX.png
+    - assets/templates/images/icon-message-text-Scd.png
+    - assets/templates/images/icon-home-wMf.png
+    - assets/templates/images/icon-wallet-Yn1.png
+    - assets/templates/images/icon-wallet-gT7.png
+    - assets/templates/images/rectangle-84-tMT.png
+    - assets/templates/images/icon-fill-caret-small-down-US1.png
+    - assets/templates/images/corner-down-left-qgR.png
+    - assets/templates/images/vector-gn9.png
+    - assets/templates/images/icon-home-nW1.png
+    - assets/templates/images/user-avatar-uLh.png
+    - assets/templates/images/icon-fill-caret-small-down-Afo.png
+    - assets/templates/images/icon-home-hQq.png
+    - assets/templates/images/icon-question-mark-circle-XCR.png
+    - assets/templates/images/icon-message-text-AFw.png
+    - assets/templates/images/icon-message-text-Lk5.png
+    - assets/templates/images/icon-user-circle-alt-BMF.png
+    - assets/templates/images/user-avatar-zqb.png
+    - assets/templates/images/success-icon-GUD.png
+    - assets/templates/images/icon-group-KNu.png
+    - assets/templates/images/success-icon-JUD.png
+    - assets/templates/images/icon-question-mark-circle-Hn5.png
+    - assets/templates/images/icon-question-mark-circle-xM3.png
+    - assets/templates/images/icon-user-circle-alt-xf7.png
+    - assets/templates/images/icon-message-text-DCH.png
+    - assets/templates/images/image-2.png
+    - assets/templates/images/success-icon-YNR.png
+    - assets/templates/images/success-icon-r9B.png
+    - assets/templates/images/corner-down-left-fyX.png
+    - assets/templates/images/user-avatar-bg-fnm.png
+    - assets/templates/images/icon-question-mark-circle-2fX.png
+    - assets/templates/images/success-icon-LYd.png
+    - assets/old-sg/images/ellipse-1.png
+    - assets/old-sg/images/checkbox.png
+    - assets/templates/images/app-logo-HuP.png
+    - assets/templates/images/icon-question-mark-circle-K9o.png
+    - assets/old-sg/images/ellipse-1-Wpu.png
+    - assets/old-sg/images/outlined-directions-chevron-right.png
+    - assets/old-sg/images/ellipse-1-nXw.png
+    - assets/old-sg/images/ellipse-1-nGM.png
+    - assets/old-sg/images/stateactive.png
+    - assets/old-sg/images/outlined-directions-arrows-in-circle-right.png
+    - assets/old-sg/images/search-icon.png
+    - assets/old-sg/images/ellipse-1-vpd.png
+    - assets/templates/images/success-icon-PQq.png
+    - assets/old-sg/images/ellipse-1-fgy.png
+    - assets/templates/images/user-avatar-bg-6d3.png
+    - assets/templates/images/image-4.png
+    - assets/templates/images/icon-question-mark-circle-NrH.png
+    - assets/templates/images/success-icon-s2M.png
+    - assets/old-sg/images/component-3.png
+    - assets/old-sg/images/ellipse-1-21T.png
+    - assets/templates/images/user-avatar-bg-zMb.png
+    - assets/templates/images/app-logo-JNH.png
+    - assets/old-sg/images/component-5.png
+    - assets/templates/images/success-icon-KZP.png
+    - assets/old-sg/images/ellipse-1-HwK.png
+    - assets/templates/images/app-logo-DE5.png
+    - assets/old-sg/images/ellipse-1-Aiy.png
+    - assets/old-sg/images/outlined-directions-chevron-down.png
+    - assets/old-sg/images/ellipse-1-8bF.png
+    - assets/old-sg/images/eye-close-line.png
+    - assets/old-sg/images/ellipse-1-mxy.png
+    - assets/old-sg/images/component-4.png
+    - assets/templates/images/success-icon-JT7.png
+    - assets/templates/images/success-icon-b1X.png
+    - assets/old-sg/images/ellipse-1-Xfs.png
+    - assets/old-sg/images/ellipse-1-tmK.png
+    - assets/old-sg/images/ellipse-1-Fbs.png
+    - assets/templates/images/icon-question-mark-circle-Pi5.png
+    - assets/templates/images/success-icon-fss.png
+    - assets/old-sg/images/ellipse-1-Bob.png
+    - assets/old-sg/images/eye-close-line-nqK.png
+    - assets/old-sg/images/ellipse-1-uS5.png
+    - assets/templates/images/rectangle-84-bJu.png
+    - assets/templates/images/app-logo-aMB.png
+    - assets/old-sg/images/component-2-64d.png
+    - assets/old-sg/images/outlined-directions-chevron-down-neq.png
+    - assets/old-sg/images/arrowdown.png
+    - assets/old-sg/images/ellipse-1-6JH.png
+    - assets/templates/images/app-logo-jc9.png
+    - assets/templates/images/rectangle-84-tzq.png
+    - assets/old-sg/images/ellipse-1-rwf.png
+    - assets/templates/images/image-3.png
+    - assets/templates/images/rectangle-84-gQu.png
+    - assets/templates/images/app-logo-mhF.png
+    - assets/templates/images/app-logo-Hfb.png
+    - assets/templates/images/unsplash-5q1knujtjam-SHb.png
+    - assets/templates/images/user-avatar-bg-za1.png
+    - assets/old-sg/images/stateinactive.png
+    - assets/style-guildeline-tu/images/ellipse-1-ePF.png
+    - assets/old-sg/images/outlined-directions-arrows-in-circle-left.png
+    - assets/templates/images/icon-question-mark-circle-2fw.png
+    - assets/old-sg/images/eye-close-line-jsT.png
+    - assets/style-guildeline-tu/images/ellipse-1-5gR.png
+    - assets/templates/images/app-logo-kaR.png
+    - assets/style-guildeline-tu/images/outlined-directions-arrows-in-circle-right-icd.png
+    - assets/style-guildeline-tu/images/outlined-directions-chevron-down-F6m.png
+    - assets/style-guildeline-tu/images/ellipse-1-nsP.png
+    - assets/table-creator/images/artwork.png
+    - assets/old-sg/images/search-icon-iFF.png
+    - assets/style-guildeline-tu/images/ellipse-1-gC5.png
+    - assets/style-guildeline-tu/images/ellipse-1-4hB.png
+    - assets/style-guildeline-tu/images/eye-close-line-bSD.png
+    - assets/old-sg/images/outlined-directions-chevron-down-jHX.png
+    - assets/old-sg/images/ellipse-1-5cH.png
+    - assets/style-guildeline-tu/images/search-icon-Rw3.png
+    - assets/style-guildeline-tu/images/ellipse-1-7J5.png
+    - assets/old-sg/images/ellipse-1-A1T.png
+    - assets/style-guildeline-tu/images/outlined-directions-chevron-left.png
+    - assets/style-guildeline-tu/images/eye-close-line-5c9.png
+    - assets/style-guildeline-tu/images/ellipse-1-21b.png
+    - assets/style-guildeline-tu/images/component-5-MZf.png
+    - assets/style-guildeline-tu/images/outlined-directions-chevron-down-d9o.png
+    - assets/style-guildeline-tu/images/component-3-ut1.png
+    - assets/style-guildeline-tu/images/ellipse-1-ngD.png
+    - assets/style-guildeline-tu/images/stateinactive-uF3.png
+    - assets/style-guildeline-tu/images/outlined-directions-arrows-in-circle-left-2qT.png
+    - assets/style-guildeline-tu/images/stateactive-g9K.png
+    - assets/style-guildeline-tu/images/ellipse-1-2ku.png
+    - assets/style-guildeline-tu/images/ellipse-1-mTb.png
+    - assets/style-guildeline-tu/images/ellipse-1-AH3.png
+    - assets/table-creator/images/bxs-sort-alt.png
+    - assets/table-creator/images/frame-14.png
+    - assets/style-guildeline-tu/images/checkbox-wwK.png
+    - assets/style-guildeline-tu/images/ellipse-1-gG5.png
+    - assets/old-sg/images/outlined-directions-chevron-left-bdw.png
+    - assets/style-guildeline-tu/images/arrowdown-kFw.png
+    - assets/table-creator/images/bxs-sort-alt-jJD.png
+    - assets/table-creator/images/frame-14-HKj.png
+    - assets/table-creator/images/artwork-973.png
+    - assets/table-creator/images/bxs-sort-alt-UP7.png
+    - assets/table-creator/images/unsplash-gi3iuj1fwxi-bg.png
+    - assets/style-guildeline-tu/images/search-icon-CEZ.png
+    - assets/table-creator/images/artwork-gay.png
+    - assets/style-guildeline-tu/images/ellipse-1-9LZ.png
+    - assets/style-guildeline-tu/images/component-2-snM.png
+    - assets/style-guildeline-tu/images/outlined-directions-chevron-down-tah.png
+    - assets/style-guildeline-tu/images/component-4-AHK.png
+    - assets/style-guildeline-tu/images/outlined-directions-chevron-right-eCV.png
+    - assets/style-guildeline-tu/images/eye-close-line-xTw.png
+    - assets/style-guildeline-tu/images/ellipse-1-YB7.png
+    - assets/table-creator/images/bxs-sort-alt-jP3.png
+    - assets/style-guildeline-tu/images/ellipse-1-HHP.png
+    - assets/table-creator/images/unsplash-h0angggseio-bg.png
+    - assets/templates/images/success-icon-TED.png
+    - assets/templates/images/image-1.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
